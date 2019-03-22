@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bienvenidos a Facebook</title>
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+<body>
+	<header>
+		<h1>
+			<span class="facebook">Facebook</span>
+			<button class="entrar" type="submit">Entrar</button>
+			<input id="contrasenia" value="" name="contrasenia" type="password" placeholder="Contrase&ntilde;a" />
+			<input type="email" id="correo" value="" name="correo" placeholder="Correo electr&oacute;nico" />
+		</h1>
+	</header>
+	
+	<main><!-- Comienzo del Contenido -->
+		<section id="izquierda">
+			<p>
+				<span class="letras">Facebook te ayuda a comunicarte y compartir</span><br/> 
+				<span class="letras2">con las personas que forman parte de tu vida.</span>
+			</p>
+			<img id="conection" src="image/conection.png">
+			
+		</section>
+		
+		<section id="derecha"><br/>
+			<span class="register">Registrate</span><br/>
+			<span class="gratis">Es gratis y lo ser&aacute; siempre.</span><br/>
+			
+			<!-- Todos los inputs -->
+			<input id="nombre" value="" name="nombre" placeholder="Nombre" />
+			<input id="apellido" value="" name="apellido" placeholder="Apellidos" /><br/>
+			<input id="movil" value="" name="movil" type="email" placeholder="Numero de M&oacute;vil o Correo electr&oacute;nico" /><br/>
+			<input id="password" value="" name="password" type="password" placeholder="Contrase&ntilde;a" /><br/><br/>
+			
+			<!-- Selection -->
+			<label>Fecha de nacimiento<label><br/>
+			  <select class="fecha" name="D&iacute;a"><option value="value1">18</option></select> 
+			  <select class="fecha" name="Mes"><option value="value2" selected>Oct</option></select>
+			  <select class="fecha" name="A&ntilde;o"><option value="value3">1993</option></select><br/><br/>
+			  
+			  <!-- Radio de seleccion -->
+			  <input type="radio" name="hombre" value="1">Mujer
+			  <input type="radio" name="mujer" value="2">Hombre
+			  
+			  <!-- reglas -->
+			  <p>
+				<h6 class="center">Al hacer clic en Registrarte, aceptas las <span class="cookies">Condiciones</span>, <span class="cookies">
+				la Política<br/> 
+				de datos</span> y la <span class="cookies">Política de cookies</span>. 
+				Es posible que te enviemos<br/> notificaciones por SMS que podrás desactivar cuando quieras.</h6>
+			  </p><br/><br/><br/><br/><br/>
+			  
+			  <!-- Boton de registrarte -->
+			  <button id="alta">
+				Registrate
+			  </button>
+		</section>
+	</main><!-- Fin del main -->
+</body>
+
+</html>
